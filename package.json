@@ -9,7 +9,17 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
-    "vue": "^2.5.21"
+    "flatpickr": "^4.5.2",
+    "material-icons": "^0.3.0",
+    "node-sass": "^4.11.0",
+    "nouislider": "^12.1.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.21",
+    "vue-flatpickr-component": "^8.1.1",
+    "vue-lazyload": "^1.2.6",
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.2",
+    "vue2-transitions": "^0.2.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",

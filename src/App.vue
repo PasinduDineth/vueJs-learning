@@ -1,13 +1,18 @@
 <template> 
-   <login/>
+    <div id="app">
+        <main>
+            <fade-transition origin="center" mode="out-in" :duration="250">
+              <router-view/>                
+            </fade-transition>
+        </main>
+    </div>
 </template>
-
 <script>
-import Login from './components/Login';
+import { FadeTransition } from "vue2-transitions";
 export default {
   name: 'app',
   components: {
-    Login
+    FadeTransition
   }
 }
 </script>
@@ -17,14 +22,5 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  
-}
-.app {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: blueviolet;
 }
 </style>
