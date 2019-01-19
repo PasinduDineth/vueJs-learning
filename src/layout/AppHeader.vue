@@ -3,7 +3,7 @@
     <header class="header-global">
         <base-nav class="navbar-main" type="" effect="light" expand>
             <a slot="brand" class="navbar-brand mr-lg-5" href="https://demos.creative-tim.com/vue-argon-design-system/documentation">
-                <img src="https://demos.creative-tim.com/vue-argon-design-system/img/brand/white.png    ">
+                <img src="../assets/zeus.png">
             </a>
             <!-- logo section -->
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
