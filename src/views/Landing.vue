@@ -6,31 +6,22 @@
             <div class="card shadow border-0 ml-4 mr-4">
                 <div class="row m-2">
                         <div class="col-2" style="backgroundColor:#fff">
-                                <!-- <div class="m-2">
-                                    <h5 class="mb-0"> <i class="fa fa-tachometer mr-2"></i> DASHBOARD </h5>
-                                </div>
-                                <div class="m-2">
-                                     <h5 class="mb-0"> <i class="fa fa-check-circle mr-2"></i> BOOKINGS </h5>
-                                </div>
-                                <div class="m-2">
-                                    <h5 class="mb-0"> <i class="fa fa-key mr-2"></i> Rooms </h5>
-                                </div> -->
                             <ul class="navbar-nav ml-lg-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-tachometer mr-2"></i>Dashboard
+                                 <router-link :to="{name : 'dashboard'}"><a class="nav-link"><i class="fa fa-tachometer mr-2"></i>Dashboard
                                         <span class="sr-only">(current)</span>
-                                    </a>
+                                    </a></router-link>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-key mr-2"></i>Rooms</a>
+                                  <router-link :to="{name : 'rooms'}"><a class="nav-link"><i class="fa fa-key mr-2"></i>Room</a></router-link>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link" href="#" id="navbar-primary_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-check-circle mr-2"></i>Bookings</a>
+                                    <a class="nav-link" id="navbar-primary_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-check-circle mr-2"></i>Bookings</a>
                                 </li>
                             </ul>
                         </div>
                     <div class="col-10" style="backgroundColor:#f4f5f7">
-        
+                        <router-view></router-view>
                     </div>
                 </div>
             </div>
