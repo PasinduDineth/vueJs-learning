@@ -20,7 +20,7 @@
                                 </li>
                             </ul>
                         </div>
-                    <div class="col-10" style="backgroundColor:#f4f5f7">
+                    <div class="col-10" style="backgroundColor:white">
                         <router-view></router-view>
                     </div>
                 </div>
